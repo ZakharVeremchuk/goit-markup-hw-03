@@ -249,9 +249,6 @@ header .container {
     gap: 24px;
 }
 
-.footer .container {
+.footer .logo {
     display: inline-block;
 }
-
-
-
