@@ -159,6 +159,7 @@ h3 {
 }
 
 .footer {
+    padding: 100px 0;
     background-color: var(--navy-blue-color);
 }
 
@@ -252,7 +253,6 @@ header .container {
 .footer .container {
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
 }
 
 
