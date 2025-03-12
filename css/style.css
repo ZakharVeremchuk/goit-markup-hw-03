@@ -21,7 +21,6 @@ body ul {
 }
 
 .logo {
-    display: inline-block;
     margin-bottom: 16px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -251,8 +250,7 @@ header .container {
 }
 
 .footer .container {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 
 
