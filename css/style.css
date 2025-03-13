@@ -38,6 +38,7 @@ body ul {
 
 
 .link {
+    padding: 24px 0;
     font-weight: 500;
 }
 
@@ -74,20 +75,14 @@ h3 {
     color: #434455;
 }
 
-.address-list {
-    display: flex;
-    gap: 40px;
-}
-
 .header-link {
     display: flex;
     flex-direction: row;
-    padding: 24px 0;
     gap: 40px;
 }
 
 .address-link ul {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     gap: 40px;
 }
