@@ -151,13 +151,14 @@ h3 {
     background-color: var(--cloud-color);
 }
 
-.second-header-section {
+.header-section {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
+    margin-bottom: 72px;
 }
 
 .third-section-list {
@@ -204,7 +205,7 @@ header .container {
     justify-content: center;
 }
 
-.second-section {
+.second-section .third-section .fourth-section {
     padding: 120px 0;
 }
 
@@ -253,7 +254,7 @@ header .container {
     margin: 80px 200px;
 }
 
-.fourth-section .container ul {
+.fourth-section .container .list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -261,6 +262,11 @@ header .container {
     justify-content: center;
     width: 100%;
     gap: 24px;
+    row-gap: 48px;
+}
+
+.fourth-section .container .list .item {
+    width: calc((100% - 48px) / 3);
 }
 
 .footer .logo {
