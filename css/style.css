@@ -266,7 +266,7 @@ img {
 
 }
 
-.second-section .container .list .item {
+.second-section-list-item {
     width: calc((100% - 72px) / 4);
 }
 
