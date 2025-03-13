@@ -138,6 +138,7 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
+    margin-bottom: 8px;
 }
 
 .element-paragraph {
@@ -221,9 +222,8 @@ header .container {
 
 }
 
-.second-section .container .list .first-element{
-    width: calc((100% - 72px) / 4)
-
+.second-section .container .list .item {
+    width: calc((100% - 72px) / 4);
 }
 .third-section .container {
     display: flex;
