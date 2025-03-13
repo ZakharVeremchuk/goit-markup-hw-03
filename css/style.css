@@ -193,13 +193,13 @@ img {
     flex-direction: row;
     width: 1158px;
     height: 72px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
     justify-content: space-around;
     align-items: center;
 }
 
-.container nav {
+.container navigation {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
