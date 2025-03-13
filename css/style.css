@@ -169,8 +169,24 @@ h3 {
 }
 
 .third-section-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 732px;
+    gap: 24px;
+}
+
+.third-section-list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     background-color: var(--white-text-color);
 }
+
+.third-section-list-item-container {
+    padding: 32px 0;
+}
+
 
 .footer {
     padding: 100px 0;
@@ -235,14 +251,6 @@ img {
 
 .second-section .container .list .item {
     width: calc((100% - 72px) / 4);
-}
-.third-section .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 732px;
-    gap: 71px;
 }
 
 .third-section .container  ul { 
