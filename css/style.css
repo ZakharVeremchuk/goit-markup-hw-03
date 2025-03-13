@@ -203,6 +203,10 @@ header .container {
     justify-content: center;
 }
 
+.second-section {
+    padding: 120px 0;
+}
+
 .second-section .container {
     display: inline-flex;
     flex-direction: column;
@@ -210,9 +214,15 @@ header .container {
     justify-content: space-around;
     width: 100%;
 }
-.second-section .container ul {
+.second-section .container .list {
     display: flex;
     flex-direction: row;
+    gap: 24px;
+
+}
+
+.second-section .container .list .first-element{
+    width: calc((100% - 72px) / 4)
 
 }
 .third-section .container {
