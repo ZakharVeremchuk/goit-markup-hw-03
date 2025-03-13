@@ -73,9 +73,16 @@ h3 {
 .address-link .information {
     color: #434455;
 }
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-link {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
+    padding: 24px 0;
     gap: 40px;
 }
 
@@ -200,10 +207,10 @@ img {
 }
 
 .container .navigation {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 70px;
+    gap: 40px;
 }
 
 .service .container {
