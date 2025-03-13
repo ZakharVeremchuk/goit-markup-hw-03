@@ -205,7 +205,7 @@ header .container {
     justify-content: center;
 }
 
-.second-section .third-section .fourth-section {
+.second-section, .third-section, .fourth-section {
     padding: 120px 0;
 }
 
